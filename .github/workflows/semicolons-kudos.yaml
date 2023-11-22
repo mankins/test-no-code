@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: LoremLabs/kudos-for-code-action@2ed632b3449f07f4b3d5a19f1c96cc71514904f8
+      - uses: LoremLabs/kudos-for-code-action@d043605c42d29af836ac37039c92854fc215f53e
         with:
           search-dir: "."
           destination: "artifact"
