@@ -19,3 +19,4 @@ jobs:
           generate-nomerges: true
           generate-validemails: true
           generate-limitdepth: 2
+          generate-from-top-repo: true
