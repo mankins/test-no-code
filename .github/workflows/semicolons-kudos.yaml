@@ -8,6 +8,7 @@ on:
 jobs:
   kudos:
     name: Semicolons Kudos
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
