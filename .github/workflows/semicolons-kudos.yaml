@@ -19,5 +19,6 @@ jobs:
           generate-nomerges: true
           generate-validemails: true
           generate-limitdepth: 2
-          generate-fromrepo: true
+          generate-fromrepo: false
           analyze-repo: false
+		  skip-ids: "me@example.com"
