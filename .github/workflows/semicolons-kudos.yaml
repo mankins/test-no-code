@@ -21,4 +21,4 @@ jobs:
           generate-limitdepth: 2
           generate-fromrepo: false
           analyze-repo: false
-		  skip-ids: "me@example.com"
+          skip-ids: "me@example.com"
