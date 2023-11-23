@@ -20,4 +20,4 @@ jobs:
           generate-validemails: true
           generate-limitdepth: 2
           generate-fromrepo: true
-          analyze-repo: true
+          analyze-repo: false
