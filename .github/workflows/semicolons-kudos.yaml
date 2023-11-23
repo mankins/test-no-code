@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: LoremLabs/kudos-for-code-action@d043605c42d29af836ac37039c92854fc215f53e
+      - uses: LoremLabs/kudos-for-code-action@latest
         with:
           search-dir: "."
           destination: "artifact"
@@ -20,5 +20,4 @@ jobs:
           generate-validemails: true
           generate-limitdepth: 2
           generate-fromrepo: true
-          analyze-repo: false
-
+          analyze-repo: true
